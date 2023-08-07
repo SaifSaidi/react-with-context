@@ -2,7 +2,6 @@ import { createContext, useReducer } from "react";
 
 export const context = createContext<any>(null);
 
-// useState, useProducer
 export type actions = {
     action: '+' | '-'
 }
